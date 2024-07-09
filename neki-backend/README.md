@@ -79,9 +79,9 @@ As tabelas do banco de dados estão definidas na pasta `prisma`. O arquivo de co
 
 Para visualizar, adicionar, editar ou deletar dados das tabelas manualmente, você pode utilizar o Prisma Studio, uma interface gráfica para gerenciar os dados no banco de dados. Para abrir o Prisma Studio, execute o comando abaixo:
 
-    ```bash
-       yarn prisma studio, npm run prisma studio ....
-    ```
+```bash
+ yarn prisma studio, npm run prisma studio ....
+```
 
 ## Instalação e Execução
 
@@ -100,19 +100,9 @@ Para visualizar, adicionar, editar ou deletar dados das tabelas manualmente, voc
 3. Configure as variáveis de ambiente, crie um arquivo .env na raiz do projeto e configure as variáveis conforme o exemplo abaixo:
 
 **NODE_ENV="dev"**
-
-# User HTTP Request
-
 **HTTP_REQUEST="http://localhost:3000"**
-
-# Auth
-
 **JWT_SECRET="JWT_EXAMPLE"**
-
-# Database and PostgreSQL variables
-
 **DATABASE_URL="postgresql://neki:neki_password@localhost:5432/nekiapi?schema=public"**
-
 **POSTGRES_USERNAME="POSTGRES_USERNAME_EXAMPLE"**
 **POSTGRES_PASSWORD="POSTGRES_PASSWORD_EXAMPLE"**
 **POSTGRES_DATABASE="POSTGRES_DATABASE_EXAMPLE"**
