@@ -99,13 +99,13 @@ Para visualizar, adicionar, editar ou deletar dados das tabelas manualmente, voc
 
 3. Configure as variáveis de ambiente, crie um arquivo .env na raiz do projeto e configure as variáveis conforme o exemplo abaixo:
 
-**NODE_ENV="dev"**
-**HTTP_REQUEST="http://localhost:3000"**
-**JWT_SECRET="JWT_EXAMPLE"**
-**DATABASE_URL="postgresql://neki:neki_password@localhost:5432/nekiapi?schema=public"**
-**POSTGRES_USERNAME="POSTGRES_USERNAME_EXAMPLE"**
-**POSTGRES_PASSWORD="POSTGRES_PASSWORD_EXAMPLE"**
-**POSTGRES_DATABASE="POSTGRES_DATABASE_EXAMPLE"**
+- **NODE_ENV="dev**
+- **HTTP_REQUEST="http://localhost:3000"**
+- **JWT_SECRET="JWT_EXAMPLE"**
+- **DATABASE_URL="postgresql://neki:neki_password@localhost:5432/nekiapi?schema=public**
+- **POSTGRES_USERNAME="POSTGRES_USERNAME_EXAMPLE"**
+- **POSTGRES_PASSWORD="POSTGRES_PASSWORD_EXAMPLE"**
+- **POSTGRES_DATABASE="POSTGRES_DATABASE_EXAMPLE"**
 
 4. Inicie o projeto:
 
