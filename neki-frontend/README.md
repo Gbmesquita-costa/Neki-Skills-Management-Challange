@@ -1,6 +1,6 @@
 # Sistema de Gestão de Skills - Frontend
 
-Este é o frontend do projeto de Sistema de Gestão de Skills, desenvolvido em Next.js. A aplicação contempla as seguintes funcionalidades:
+Este é o frontend do projeto de Sistema de Gestão de Skills. A aplicação contempla as seguintes funcionalidades:
 
 ## Funcionalidades
 
@@ -58,15 +58,82 @@ Este é o frontend do projeto de Sistema de Gestão de Skills, desenvolvido em N
 - **Next.js**: Framework React para aplicações web.
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 - **TypeScript**: Superset de JavaScript que adiciona tipagem estática.
-- **Axios**: Cliente HTTP baseado em Promises.
 - **Zustand**: Biblioteca para gerenciamento de estado.
-- **React Hook Form**: Biblioteca para gerenciamento de formulários.
-- **Yup**: Biblioteca de validação de esquemas.
-- **Styled Components**: Biblioteca para estilização de componentes.
+- **Shadcn-UI**: Biblioteca para componentes estilizados.
+- **Tailwind**: Biblioteca para estilização de componentes.
 
 ## Instalação e Execução
 
 1. Clone o repositório:
+
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Gbmesquita-costa/Neki-Skills-Management-Challange.git
    ```
+
+2. Instale as dependências:
+
+```bash
+ npm install, yarn ...
+```
+
+3. Configure as variáveis de ambiente, crie um arquivo .env na raiz do projeto e configure as variáveis conforme o exemplo abaixo:
+
+**NEXT_PUBLIC_HTTP_REQUEST="http://localhost:3333"**
+
+4. Execute a aplicação:
+
+```bash
+ npm run dev, yarn dev ...
+```
+
+## Estrutura de Pastas do Projeto
+
+A estrutura de pastas do projeto frontend (neki-frontend) está organizada da seguinte forma:
+
+```shell
+neki-frontend
+├── public
+│   ├── bg
+│   ├── logo
+│   └── ...
+├── src
+│   ├── actions
+│   │   ├── cookies
+│   │   ├── create-skills
+│   │   ├── login-user
+│   │   ├── logout-user
+│   │   ├── revalidate
+│   │   └── signup-user
+│   ├── app
+│   │   ├── auth
+│   │   │   ├── login
+│   │   │   └── signup
+│   │   ├── home
+│   │   │   ├── @admin
+│   │   │   └── @user
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── not-found.tsx
+│   │   ├── page.tsx
+│   │   ├── robots.ts
+│   │   └── sitemap.ts
+│   ├── components
+│   │   ├── auth
+│   │   ├── home
+│   │   ├── layouts
+│   │   ├── theme
+│   │   └── ui
+│   ├── lib
+│   │   ├── utils.ts
+│   │   └── decode-jwt
+│   ├── providers
+│   ├── schemas
+│   ├── toasts
+│   ├── zustand
+│   └── middleware.ts
+```
+
+## Observações Adicionais
+
+Para que um usuário comum possa escolher uma skill, as skills devem ser criadas por um administrador. O administrador tem a permissão de criar novas skills no sistema.
