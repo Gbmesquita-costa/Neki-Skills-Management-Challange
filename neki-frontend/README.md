@@ -137,3 +137,5 @@ neki-frontend
 ## Observações Adicionais
 
 Para que um usuário comum possa escolher uma skill, as skills devem ser criadas por um administrador. O administrador tem a permissão de criar novas skills no sistema.
+
+https://github.com/Gbmesquita-costa/Neki-Skills-Management-Challange/assets/95727524/d8ae702d-4b4c-4b14-845d-d569a6a59d8b

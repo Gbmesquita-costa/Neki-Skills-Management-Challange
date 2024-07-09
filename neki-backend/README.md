@@ -202,6 +202,8 @@ Execute o comando abaixo para abrir o Prisma Studio:
  yarn prisma studio
 ```
 
+https://github.com/Gbmesquita-costa/Neki-Skills-Management-Challange/assets/95727524/85f4e9ad-9667-400d-8514-1f045e12d814
+
 ## Estrutura de Pastas do Backend
 
 A estrutura de pastas do projeto backend (`neki-backend`) está organizada da seguinte forma:
